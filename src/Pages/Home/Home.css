@@ -61,8 +61,7 @@ margin-bottom: 30px;
 .crypto-table {
   max-width: 800px;
   margin: auto;
-  /* background: linear-gradient(rgba(84,3,225,0.15) , rgba(105,2,153,.15)); */
-  background-color: hotpink;
+  background: linear-gradient(rgba(84,3,225,0.15) , rgba(105,2,153,.15));
   border-radius: 15px;
 }
 
@@ -75,4 +74,24 @@ margin-bottom: 30px;
 }
 .market-cap {
   text-align: right;
+}
+.crypto-image {
+  display: flex; 
+  gap: 10px;
+}
+.crypto-image img {
+  width: 30px;
+  height: 30px;
+}
+.crypto-image p {
+  margin-top: 6px;
+}
+
+.green {
+  margin-left: 32px;
+  color: green;
+}
+.red {
+  margin-left: 32px;
+  color: red;
 }
